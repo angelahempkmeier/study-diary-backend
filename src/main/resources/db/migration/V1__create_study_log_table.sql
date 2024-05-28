@@ -1,0 +1,5 @@
+CREATE TABLE study_log (
+    id CHAR(36) NOT NULL PRIMARY KEY,
+    date DATETIME NOT NULL,
+    description VARCHAR(255) NOT NULL
+);
